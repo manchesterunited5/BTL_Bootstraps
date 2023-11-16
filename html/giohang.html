@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/giohang.css"> -->
+
+    <link rel="stylesheet" href="../css/giohang.css">
+    <link rel="stylesheet" href="../lib/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../icon/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-success">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#">My wishlist<span class="sr-only">(current)</span></a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/danhsachsanpham.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./lienhe.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/dangnhap.html">Login</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-4">
+            <div class="row justify-content-between">
+                <a href="/index.html"><img class="pl-4" src="/img/logo.png" alt="anh"></a>
+                <div class="row mr-3 border">
+                    <i class="fa-solid fa-cart-shopping mr-4 p-3 bg-success text-white L2"></i>
+                    <p class="text__card"><b class="mr-2">0</b>Shopping card/<span>$0.00</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="container size">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">PAGES <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">WOMEN <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">MAN <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">ELECTRONICS <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">FIRNITURE <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">KIDS <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">JWELLERY <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <h3 class="giohang">Giỏ hàng</h3>
+        </div>
+        <div class="container">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <th class="tieude">Sản phẩm</th>
+                    <th class="tieude">Tên sản phẩm</th>
+                    <th class="tieude">Giá</th>
+                    <th class="tieude">Số lượng</th>
+                    <th class="tieude">Tổng</th>
+                    <th class="tieude">Phương thức thanh toán</th>
+                    <th class="tieude">Hủy hàng</th>
+                </thead>
+                <tbody class="trongtable">
+                    <tr>
+                        <td class="anhsanpham">
+                            <img src="../img/dongho1.1.jpg" alt="anh" width="80px">
+                        </td>
+                        <td class="enter">Aliquam erat volupat</td>
+                        <td class="enter">$156.00</td>
+                        <td class="input enter">
+                            <input class="text-center" type="number" value="1">
+                        </td>
+                        <td class="enter">$312.00</td>
+                        <td class="">Tiền mặt</td>
+                        <td class="huyhang">
+                            <a href="" onclick="return confirm('Bạn có chắc muốn hủy sản phẩm này không')">
+                                <i class="fa-solid fa-x"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="anhsanpham">
+                            <img src="../img/dongho1.3.jpg" alt="anh" width="80px">
+                        </td>
+                        <td class="vertical1">Aliquam erat volupat</td>
+                        <td>$156.00</td>
+                        <td class="input">
+                            <input class="text-center" type="number" value="1">
+                        </td>
+                        <td>$312.00</td>
+                        <td>Chuyển khoản</td>
+                        <td class="huyhang">
+                            <a href="" onclick="return confirm('Bạn có chắc muốn hủy sản phẩm này không')">
+                                <i class="fa-solid fa-x"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="anhsanpham">
+                            <img src="../img/dongho1.2.jpg" alt="anh" width="80px">
+                        </td>
+                        <td>Aliquam erat volupat</td>
+                        <td>$156.00</td>
+                        <td class="input">
+                            <input class="text-center" type="number" value="1">
+                        </td>
+                        <td>$312.00</td>
+                        <td>Trực tiếp</td>
+                        <td class="huyhang">
+                            <a href="" onclick="return confirm('Bạn có chắc muốn hủy sản phẩm này không')">
+                                <i class="fa-solid fa-x"></i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid bg-light">
+            <div class="container bg-light">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 pt-5">
+                        <p class="L123">QUICK LINKS</p>
+                        <ul class="footer1">
+                            <li>Blog</li>
+                            <li>FAQS</li>
+                            <li>Payment</li>
+                            <li>Shipment</li>
+                            <li>Where is my order</li>
+                            <li>Return policy</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 pt-5">
+                        <p class="L123">STYLE ADVISOR</p>
+                        <ul class="footer1">
+                            <li>Your Account</li>
+                            <li>Information</li>
+                            <li>Addresses</li>
+                            <li>Discount</li>
+                            <li>Order History</li>
+                            <li>Additional Information</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 pt-5">
+                        <p class="L123">INFORMATION</p>
+                        <ul class="footer1">
+                            <li>Site Map</li>
+                            <li>Search Terms</li>
+                            <li>Advanced Search</li>
+                            <li>About Us</li>
+                            <li>Contact Us</li>
+                            <li>Suppliers</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 pt-5">
+                        <div class="bando w-100">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6585384391014!2d105.78131221475518!3d21.046344492554038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab3b4220c2bd%3A0x1c9e359e2a4f618c!2sB%C3%A1ch%20Khoa%20Aptech!5e0!3m2!1svi!2s!4v1676794784301!5m2!1svi!2s"
+                                width="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <div class="row L1"></div>
+                        <a class="L12" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="L12" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="L12" href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
+                        <a class="L12" href="https://www.google.com/?hl=vi"><i
+                                class="fa-brands fa-google-plus-g"></i></a>
+                        <a class="L12" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+
+    <script src="../lib/jquery-3.6.3.min.js"></script>
+    <script src="../lib/Product-Gallery-Image-Zoom/scripts/main.js"></script>
+    <script src="../lib/Product-Gallery-Image-Zoom/scripts/zoom-image.js"></script>
+    <script src="../lib/popper.min.js"></script>
+    <script src="../lib/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="../lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+</body>
+
+</html>

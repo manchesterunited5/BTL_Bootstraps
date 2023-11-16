@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/chitietsanpham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="../lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="../lib/Product-Gallery-Image-Zoom/css/main.css">
+</head>
+
+<body>
+    <a id="scroll_top">
+        <i class="fa-solid fa-circle-chevron-up  fixed-bottom righttt"></i>
+    </a>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-success">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#">My wishlist<span class="sr-only">(current)</span></a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/danhsachsanpham.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./lienhe.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/dangnhap.html">Login</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-4">
+            <div class="row justify-content-between">
+                <a href="/index.html"><img class="pl-4" src="/img/logo.png" alt="anh"></a>
+                <div class="row mr-3 border">
+                    <a href="/html/giohang.html"><i class="fa-solid fa-cart-shopping mr-4 p-3 bg-success text-white L2"></i></a>
+                    <p class="text__card"><b class="mr-2">0</b>Shopping card/ <span>$0.00</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="container size">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">PAGES <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">WOMEN <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">MAN <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">ELECTRONICS <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">FIRNITURE <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">KIDS <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">JWELLERY <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="show" href="../img/dongho1.2.jpg">
+                        <img src="../img/dongho1.2.jpg" id="show-img">
+                    </div>
+                    <div class="small-img">
+                        <img src="../Product-Gallery-Image-Zoom/images/online_icon_right@2x.png" class="icon-left"
+                            alt="" id="prev-img">
+                        <div class="small-container">
+                            <div id="small-img-roll">
+                                <img src="../img/dongho1.1.jpg" class="show-small-img" alt="anh">
+                                <img src="../img/dongho1.2.jpg" class="show-small-img" alt="anh">
+                                <img src="../img/dongho1.3.jpg" class="show-small-img" alt="anh">
+                                <img src="../img/dongho2.1.jpg" class="show-small-img" alt="anh">
+                                <img src="../img/dongho2.2.jpg" class="show-small-img" alt="anh">
+                            </div>
+                        </div>
+                        <img src="../Product-Gallery-Image-Zoom/images/online_icon_right@2x.png" class="icon-right"
+                            alt="" id="next-img">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h1>Aliquam erat volupat</h1>
+                    <div class="giasanpham">
+                        <p>$309.99 <del class="giacu">$315.99</del></p>
+                    </div>
+                    <div class="over">
+                        <b>Quick Overview</b>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                    </div>
+                    <div class="sosanpham">
+                        <div class="row">
+                            <button class="icon">-</button>
+                            <input class="khoangcach text-center" type="text" value="1">
+                            <button class="icon">+</button>
+                            <button class="dacbiet"><i class="fa-solid fa-cart-shopping"></i>ADD TO CARD</button>
+                            <button class="icon"><i class="fa-solid fa-heart"></i></button>
+                            <button class="icon"><i class="fa fa-signal"></i></button>
+                            <button class="icon"><i class="fa-solid fa-envelope"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 img1 mt-4">
+                    <img src="../img/donghomens.jpg" alt="anh" width="278px">
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <img src="../img/ggplay.jpg" alt="anh" width="130px">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="../img/appstore.jpg" alt="anh" width="125px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="col-md-12">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="true">Product Description</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">Tags</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Custom Tab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact1" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Custom Tab1</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active OO w-100" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was popularised in the 1960s with the release of
+                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was popularised in the 1960s with the release of
+                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                    </div>
+                    <div class="tab-pane ml-3 fade h-auto w-100" id="pills-profile" role="tabpanel"
+                        aria-labelledby="pills-profile-tab">
+                        <div class="add ml-3 mt-3">
+                            <h6>Add Tags:</h6>
+                            <div class="row">
+                                <input type="text">
+                                <button>+ ADD TAGS</button>
+                            </div>
+                        </div>
+                        <p class="ghichu">Use spaces to separate tags. Use single quotes (') for phrases.</p>
+                    </div>
+                    <div class="tab-pane fade h-auto w-100" id="pills-contact" role="tabpanel"
+                        aria-labelledby="pills-contact-tab">
+                        <p class="lorem"><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was popularised in the 1960s with the release of
+                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="tab-pane fade h-auto w-100" id="pills-contact1" role="tabpanel"
+                        aria-labelledby="pills-contact-tab">
+                        <p class="lorem"><b>Comfortable</b>preshrunk shirts. Highest Quality Printing. 6.1 oz. 100%
+                            preshrunk heavyweight cotton Shoulder-to-shoulder taping Double-needle sleeves and bottom
+                            hem Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                            took a galley of type and scrambled it to make a type specimen book. It has survived not
+                            only five centuries, but also the leap into electronic typesetting, remaining essentially
+                            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                            PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="card-img" src="../img/bannermega1.jpg" alt="anh">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item mr-1">
+                                <div class="card">
+                                    <img class="card-img-top" src="../img/dongho125$.jpg" alt="anh">
+                                    <div class="card-body text-card text-center">
+                                        <h4 class="card-title">Aliquam erat volupat</h4>
+                                        <p class="card-text">$156.00</p>
+                                        <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                            role="button">ADD
+                                            TO CARD</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mr-1">
+                                <div class="card">
+                                    <img class="card-img-top" src="../img/dongho3.3.jpg" alt="anh">
+                                    <div class="card-body text-card text-center">
+                                        <h4 class="card-title">Aliquam erat volupat</h4>
+                                        <p class="card-text">$156.00</p>
+                                        <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                            role="button">ADD
+                                            TO CARD</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mr-1">
+                                <div class="card">
+                                    <img class="card-img-top" src="../img/dongho4.jpg" alt="anh">
+                                    <div class="card-body text-card text-center">
+                                        <h4 class="card-title">Aliquam erat volupat</h4>
+                                        <p class="card-text">$156.00</p>
+                                        <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                            role="button">ADD
+                                            TO CARD</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mr-1">
+                                <div class="card">
+                                    <img class="card-img-top" src="../img/dongho1.3.jpg" alt="anh">
+                                    <div class="card-body text-card text-center">
+                                        <h4 class="card-title">Aliquam erat volupat</h4>
+                                        <p class="card-text">$156.00</p>
+                                        <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                            role="button">ADD
+                                            TO CARD</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mr-1">
+                                <div class="card">
+                                    <img class="card-img-top" src="../img/dongho2.jpg" alt="anh">
+                                    <div class="card-body text-card text-center">
+                                        <h4 class="card-title">Aliquam erat volupat</h4>
+                                        <p class="card-text">$156.00</p>
+                                        <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                            role="button">ADD
+                                            TO CARD</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mr-1">
+                                <div class="card">
+                                    <img class="card-img-top" src="../img/best2.jpg" alt="anh">
+                                    <div class="card-body text-card text-center">
+                                        <h4 class="card-title">Aliquam erat volupat</h4>
+                                        <p class="card-text">$156.00</p>
+                                        <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                            role="button">ADD
+                                            TO CARD</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mr-1">
+                                <div class="card">
+                                    <img class="card-img-top" src="../img/dongho2.2.jpg" alt="anh">
+                                    <div class="card-body text-card text-center">
+                                        <h4 class="card-title">Aliquam erat volupat</h4>
+                                        <p class="card-text">$156.00</p>
+                                        <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                            role="button">ADD
+                                            TO CARD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mt-3">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item mr-1">
+                            <div class="card">
+                                <img class="card-img-top" src="../img/dongho125$.jpg" alt="anh">
+                                <div class="card-body text-card text-center">
+                                    <h4 class="card-title">Aliquam erat volupat</h4>
+                                    <p class="card-text">$156.00</p>
+                                    <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                        role="button">ADD
+                                        TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mr-1">
+                            <div class="card">
+                                <img class="card-img-top" src="../img/dongho3.3.jpg" alt="anh">
+                                <div class="card-body text-card text-center">
+                                    <h4 class="card-title">Aliquam erat volupat</h4>
+                                    <p class="card-text">$156.00</p>
+                                    <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                        role="button">ADD
+                                        TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mr-1">
+                            <div class="card">
+                                <img class="card-img-top" src="../img/dongho4.jpg" alt="anh">
+                                <div class="card-body text-card text-center">
+                                    <h4 class="card-title">Aliquam erat volupat</h4>
+                                    <p class="card-text">$156.00</p>
+                                    <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                        role="button">ADD
+                                        TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mr-1">
+                            <div class="card">
+                                <img class="card-img-top" src="../img/dongho1.3.jpg" alt="anh">
+                                <div class="card-body text-card text-center">
+                                    <h4 class="card-title">Aliquam erat volupat</h4>
+                                    <p class="card-text">$156.00</p>
+                                    <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                        role="button">ADD
+                                        TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mr-1">
+                            <div class="card">
+                                <img class="card-img-top" src="../img/dongho2.jpg" alt="anh">
+                                <div class="card-body text-card text-center">
+                                    <h4 class="card-title">Aliquam erat volupat</h4>
+                                    <p class="card-text">$156.00</p>
+                                    <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                        role="button">ADD
+                                        TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mr-1">
+                            <div class="card">
+                                <img class="card-img-top" src="../img/best2.jpg" alt="anh">
+                                <div class="card-body text-card text-center">
+                                    <h4 class="card-title">Aliquam erat volupat</h4>
+                                    <p class="card-text">$156.00</p>
+                                    <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                        role="button">ADD
+                                        TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mr-1">
+                            <div class="card">
+                                <img class="card-img-top" src="../img/dongho2.2.jpg" alt="anh">
+                                <div class="card-body text-card text-center">
+                                    <h4 class="card-title">Aliquam erat volupat</h4>
+                                    <p class="card-text">$156.00</p>
+                                    <a name="" id="" class="btn btn-outline-success" href="./chitietsanpham.html"
+                                        role="button">ADD
+                                        TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <img class="card-img" src="../img/bannerupsell1.jpg" alt="anh">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid bg-light">
+            <div class="container bg-light">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 pt-5">
+                        <p class="L123">QUICK LINKS</p>
+                        <ul class="footer1">
+                            <li>Blog</li>
+                            <li>FAQS</li>
+                            <li>Payment</li>
+                            <li>Shipment</li>
+                            <li>Where is my order</li>
+                            <li>Return policy</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 pt-5">
+                        <p class="L123">STYLE ADVISOR</p>
+                        <ul class="footer1">
+                            <li>Your Account</li>
+                            <li>Information</li>
+                            <li>Addresses</li>
+                            <li>Discount</li>
+                            <li>Order History</li>
+                            <li>Additional Information</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 pt-5">
+                        <p class="L123">INFORMATION</p>
+                        <ul class="footer1">
+                            <li>Site Map</li>
+                            <li>Search Terms</li>
+                            <li>Advanced Search</li>
+                            <li>About Us</li>
+                            <li>Contact Us</li>
+                            <li>Suppliers</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 pt-5">
+                        <div class="bando w-100">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6585384391014!2d105.78131221475518!3d21.046344492554038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab3b4220c2bd%3A0x1c9e359e2a4f618c!2sB%C3%A1ch%20Khoa%20Aptech!5e0!3m2!1svi!2s!4v1676794784301!5m2!1svi!2s"
+                                width="278" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <div class="row L1"></div>
+                        <a class="L12" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="L12" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="L12" href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a>
+                        <a class="L12" href="https://www.google.com/?hl=vi"><i
+                                class="fa-brands fa-google-plus-g"></i></a>
+                        <a class="L12" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="../lib/Product-Gallery-Image-Zoom/scripts/main.js"></script>
+    <script src="../lib/Product-Gallery-Image-Zoom/scripts/zoom-image.js"></script>
+    <script>
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            dots: false,
+            autoplayTimeout: 2500,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+
+        // $('.show').zoomImage();
+
+        $('.show-small-img:first-of-type').css({ 'border': 'solid 1px #951b25', 'padding': '2px' })
+        $('.show-small-img:first-of-type').attr('alt', 'now').siblings().removeAttr('alt')
+        $('.show-small-img').click(function () {
+            $('#show-img').attr('src', $(this).attr('src'))
+            $('#big-img').attr('src', $(this).attr('src'))
+            $(this).attr('alt', 'now').siblings().removeAttr('alt')
+            $(this).css({ 'border': 'solid 1px #951b25', 'padding': '2px' }).siblings().css({ 'border': 'none', 'padding': '0' })
+            if ($('#small-img-roll').children().length > 4) {
+                if ($(this).index() >= 3 && $(this).index() < $('#small-img-roll').children().length - 1) {
+                    $('#small-img-roll').css('left', -($(this).index() - 2) * 76 + 'px')
+                } else if ($(this).index() == $('#small-img-roll').children().length - 1) {
+                    $('#small-img-roll').css('left', -($('#small-img-roll').children().length - 4) * 76 + 'px')
+                } else {
+                    $('#small-img-roll').css('left', '0')
+                }
+            }
+        });
+
+
+        $('#next-img').click(function () {
+            $('#show-img').attr('src', $(".show-small-img[alt='now']").next().attr('src'))
+            $('#big-img').attr('src', $(".show-small-img[alt='now']").next().attr('src'))
+            $(".show-small-img[alt='now']").next().css({ 'border': 'solid 1px #951b25', 'padding': '2px' }).siblings().css({ 'border': 'none', 'padding': '0' })
+            $(".show-small-img[alt='now']").next().attr('alt', 'now').siblings().removeAttr('alt')
+            if ($('#small-img-roll').children().length > 4) {
+                if ($(".show-small-img[alt='now']").index() >= 3 && $(".show-small-img[alt='now']").index() < $('#small-img-roll').children().length - 1) {
+                    $('#small-img-roll').css('left', -($(".show-small-img[alt='now']").index() - 2) * 76 + 'px')
+                } else if ($(".show-small-img[alt='now']").index() == $('#small-img-roll').children().length - 1) {
+                    $('#small-img-roll').css('left', -($('#small-img-roll').children().length - 4) * 76 + 'px')
+                } else {
+                    $('#small-img-roll').css('left', '0')
+                }
+            }
+        })
+
+        $('#prev-img').click(function () {
+            $('#show-img').attr('src', $(".show-small-img[alt='now']").prev().attr('src'))
+            $('#big-img').attr('src', $(".show-small-img[alt='now']").prev().attr('src'))
+            $(".show-small-img[alt='now']").prev().css({ 'border': 'solid 1px #951b25', 'padding': '2px' }).siblings().css({ 'border': 'none', 'padding': '0' })
+            $(".show-small-img[alt='now']").prev().attr('alt', 'now').siblings().removeAttr('alt')
+            if ($('#small-img-roll').children().length > 4) {
+                if ($(".show-small-img[alt='now']").index() >= 3 && $(".show-small-img[alt='now']").index() < $('#small-img-roll').children().length - 1) {
+                    $('#small-img-roll').css('left', -($(".show-small-img[alt='now']").index() - 2) * 76 + 'px')
+                } else if ($(".show-small-img[alt='now']").index() == $('#small-img-roll').children().length - 1) {
+                    $('#small-img-roll').css('left', -($('#small-img-roll').children().length - 4) * 76 + 'px')
+                } else {
+                    $('#small-img-roll').css('left', '0')
+                }
+            }
+        })
+
+        var btn = $("#scroll_top");
+
+        $(window).scroll(() => {
+            if ($(window).scrollTop() > 100) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.click(function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        })
+    </script>
+</body>
+
+</html>
